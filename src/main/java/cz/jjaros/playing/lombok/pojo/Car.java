@@ -1,4 +1,4 @@
-package cz.jjaros.playing.lombok.dto;
+package cz.jjaros.playing.lombok.pojo;
 
 import lombok.AccessLevel;
 import lombok.Data;

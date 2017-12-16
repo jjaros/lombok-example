@@ -1,4 +1,4 @@
-package cz.jjaros.playing.lombok.dto;
+package cz.jjaros.playing.lombok.pojo;
 
 public class Corporate extends Company {
 

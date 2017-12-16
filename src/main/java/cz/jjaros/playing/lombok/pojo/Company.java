@@ -1,16 +1,18 @@
-package cz.jjaros.playing.lombok.dto;
+package cz.jjaros.playing.lombok.pojo;
 
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Getter
 @RequiredArgsConstructor // creates exactly one constructor Company(@NonNull String, int)
+@ToString(includeFieldNames = false, exclude = "cars")
 public abstract class Company {
 
     @NonNull
