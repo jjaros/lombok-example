@@ -1,6 +1,7 @@
 package cz.jjaros.playing.lombok;
 
 import cz.jjaros.playing.lombok.pojo.Book;
+import cz.jjaros.playing.lombok.pojo.Computer;
 import cz.jjaros.playing.lombok.pojo.Corporate;
 import cz.jjaros.playing.lombok.pojo.DestroyableObject;
 import cz.jjaros.playing.lombok.pojo.PassengerCar;
@@ -85,7 +86,7 @@ public class LombokTest {
 
     @Test
     public void testPersonEquals() {
-        assertEquals(new Person("John", "Doe", 22), new Person("John", "Smith", 33));
+        assertEquals(new Person("John", "Doe", 22), new Person("John", "Smith"));
     }
 
     @Test(expected = NullPointerException.class)
@@ -121,7 +122,7 @@ public class LombokTest {
     }
 
     private DestroyableObject createDestroyableObject() {
-        @Cleanup("destroy") DestroyableObject destroyableObject = new DestroyableObject();
+        @Cleanup("destroy") DestroyableObject destroyableObject = DestroyableObject.create();
         assertFalse(destroyableObject.isDestroyed());
         return destroyableObject;
     }
@@ -142,7 +143,7 @@ public class LombokTest {
                 .isbn("ISBNcode")
                 .pageCount(200)
                 .authors(Collections.singletonList(new Person("John", "Doe", 25)))
-                .addAuthor(new Person("John", "Smith", 30))
+                .addAuthor(new Person("John", "Smith"))
                 .buildBook();
 
         assertNotNull(book);
@@ -180,5 +181,23 @@ public class LombokTest {
                 .clearAuthors()
                 .subTitle("Playing with Lombok")
                 .buildBook();
+    }
+
+    @Test
+    public void testComputer() {
+        Computer computer1 = Computer.create("1TB", "16GB");
+        computer1.setOperatingSystem("Debian");
+        computer1.setRamSize("32GB");
+
+        Computer computer2 = Computer.create("512GB", "32GB");
+        computer2.setOperatingSystem("Windows");
+        computer2.setHddSize("1TB");
+
+        assertNotNull(computer1);
+        assertNotNull(computer2);
+        assertNotEquals(computer1, computer2);
+        assertEquals(computer1.getHddSize(), computer2.getHddSize());
+        assertEquals(computer1.getRamSize(), computer2.getRamSize());
+        assertNotEquals(computer1.getOperatingSystem(), computer2.getOperatingSystem());
     }
 }

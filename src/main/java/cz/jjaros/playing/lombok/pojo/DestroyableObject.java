@@ -3,7 +3,7 @@ package cz.jjaros.playing.lombok.pojo;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
+@NoArgsConstructor(staticName = "create")
 public class DestroyableObject {
 
     @Getter
