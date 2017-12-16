@@ -6,6 +6,9 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
+/**
+ * @author <a href="mailto:jarosjan@yahoo.com">Jan Jaros</a>
+ */
 @AllArgsConstructor
 @RequiredArgsConstructor
 @EqualsAndHashCode(exclude = {"lastName", "age"})

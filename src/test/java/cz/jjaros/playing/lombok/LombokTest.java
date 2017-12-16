@@ -24,6 +24,13 @@ import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * Playing with Lombok project features.
+ *
+ * @see <a href="https://projectlombok.org/features/">project Lombok</a>
+ *
+ * @author <a href="mailto:jarosjan@yahoo.com">Jan Jaros</a>
+ */
 public class LombokTest {
 
     private static int CORPORATE_EMPLOYEES_COUNT = 5000;

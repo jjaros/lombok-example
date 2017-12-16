@@ -5,6 +5,9 @@ import lombok.Data;
 import lombok.NonNull;
 import lombok.Setter;
 
+/**
+ * @author <a href="mailto:jarosjan@yahoo.com">Jan Jaros</a>
+ */
 @Data
 public abstract class Car {
 

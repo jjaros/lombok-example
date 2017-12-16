@@ -10,6 +10,9 @@ import lombok.ToString;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author <a href="mailto:jarosjan@yahoo.com">Jan Jaros</a>
+ */
 @Getter
 @RequiredArgsConstructor // creates exactly one constructor Company(@NonNull String, int)
 @ToString(includeFieldNames = false, exclude = "cars")

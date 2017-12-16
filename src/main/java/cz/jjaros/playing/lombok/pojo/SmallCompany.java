@@ -2,6 +2,9 @@ package cz.jjaros.playing.lombok.pojo;
 
 import lombok.ToString;
 
+/**
+ * @author <a href="mailto:jarosjan@yahoo.com">Jan Jaros</a>
+ */
 @ToString(callSuper = true)
 public class SmallCompany extends Company {
 

@@ -7,6 +7,9 @@ import lombok.Singular;
 
 import java.util.List;
 
+/**
+ * @author <a href="mailto:jarosjan@yahoo.com">Jan Jaros</a>
+ */
 @Getter
 @Builder(builderClassName = "BookLombokBuilder", builderMethodName = "lombokBuilder", buildMethodName = "buildBook")
 public class Book {
