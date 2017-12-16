@@ -4,20 +4,20 @@ All features are completly described at official project page: https://projectlo
 ## Introduction
 Getting to know and playing with Lombok stable features.
 
-In this example project are used only **stable features of Lombok 1.16.18** (expect `@Value`, `@Synchronized` and `@Log`). Some features are used in their multiple variants.
+In this example project are used only **stable features of Lombok 1.16.18** (expect [`@Value`](https://projectlombok.org/features/Value), [`@Synchronized`](https://projectlombok.org/features/Synchronized) and [`@Log`](https://projectlombok.org/features/log)). Some features are used in their multiple variants.
 
 In this project you can find:
-- `val`
-- `@NonNull`
-- `@Cleanup`
-- `@Getter / @Setter`
-- `@ToString`
-- `@EqualsAndHashCode`
-- `@NoArgsConstructor, @AllArgsConstructor, @RequiredArgsConstructor`
-- `@Data`
-- `@Builder`
-- `@SneakyThrows`
-- `@Getter(lazy = true)`
+- [`val`](https://projectlombok.org/features/val)
+- [`@NonNull`](https://projectlombok.org/features/NonNull)
+- [`@Cleanup`](https://projectlombok.org/features/Cleanup)
+- [`@Getter / @Setter`](https://projectlombok.org/features/GetterSetter)
+- [`@ToString`](https://projectlombok.org/features/ToString)
+- [`@EqualsAndHashCode`](https://projectlombok.org/features/EqualsAndHashCode)
+- [`@NoArgsConstructor, @AllArgsConstructor, @RequiredArgsConstructor`](https://projectlombok.org/features/constructor)
+- [`@Data`](https://projectlombok.org/features/Data)
+- [`@Builder`](https://projectlombok.org/features/Builder)
+- [`@SneakyThrows`](https://projectlombok.org/features/Builder)
+- [`@Getter(lazy = true)`](https://projectlombok.org/features/GetterLazy)
 
 ## Project structure
 ```
