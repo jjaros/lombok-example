@@ -1,5 +1,5 @@
 # lombok-example
-The features are completly described at official project page: https://projectlombok.org/features/
+All features are completly described at official project page: https://projectlombok.org/features/
 
 ## Introduction
 Getting to know and playing with Lombok stable features.
