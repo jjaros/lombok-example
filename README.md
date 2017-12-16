@@ -38,4 +38,4 @@ src
 ```
 git clone https://github.com/jjaros/lombok-example
 ```
-For support of Lombok in your IDE you need install appropriate plugin. Lombok dependency is download to project via Maven.
+For support of Lombok in your IDE you need install appropriate plugin. Lombok is added to project as Maven.
