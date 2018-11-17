@@ -1,5 +1,5 @@
 # lombok-example
-All Lombok features are completly described at official project page: https://projectlombok.org/features/
+All Lombok features are completely described at official project page: https://projectlombok.org/features/
 
 ## Introduction
 Getting to know and playing with Lombok stable features.
@@ -24,11 +24,11 @@ In this project you can find:
 src
    └── main
       └── java
-         └── cz.jjaros.playing.lombok.pojo
-            └── ...all Lombok POJOs...
+         └── cz.jjaros.funfromboredom.lombok.dto
+            └── ...all helper DTOs...
    └── test
       └── java
-         └── cz.jjaros.playing.lombok
+         └── cz.jjaros.funfromboredom.lombok
             └── LombokTest.java - all features are tested in this test class
       └── resources
          └── test-file.txt
@@ -38,4 +38,4 @@ src
 ```
 git clone https://github.com/jjaros/lombok-example
 ```
-For support of Lombok in your IDE you need install appropriate plugin. Lombok is added to project as Maven.
+For support of Lombok in your IDE you need install appropriate plugin. Lombok is added to project as Maven dependency.

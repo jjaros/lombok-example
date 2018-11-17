@@ -1,13 +1,13 @@
-package cz.jjaros.playing.lombok;
+package cz.jjaros.funfromboredom.lombok;
 
-import cz.jjaros.playing.lombok.pojo.Book;
-import cz.jjaros.playing.lombok.pojo.Computer;
-import cz.jjaros.playing.lombok.pojo.Corporate;
-import cz.jjaros.playing.lombok.pojo.DestroyableObject;
-import cz.jjaros.playing.lombok.pojo.PassengerCar;
-import cz.jjaros.playing.lombok.pojo.Person;
-import cz.jjaros.playing.lombok.pojo.SmallCompany;
-import cz.jjaros.playing.lombok.pojo.VanCar;
+import cz.jjaros.funfromboredom.lombok.dto.Book;
+import cz.jjaros.funfromboredom.lombok.dto.Computer;
+import cz.jjaros.funfromboredom.lombok.dto.Corporate;
+import cz.jjaros.funfromboredom.lombok.dto.DestroyableObject;
+import cz.jjaros.funfromboredom.lombok.dto.PassengerCar;
+import cz.jjaros.funfromboredom.lombok.dto.Person;
+import cz.jjaros.funfromboredom.lombok.dto.SmallCompany;
+import cz.jjaros.funfromboredom.lombok.dto.VanCar;
 import lombok.Cleanup;
 import lombok.SneakyThrows;
 import lombok.val;

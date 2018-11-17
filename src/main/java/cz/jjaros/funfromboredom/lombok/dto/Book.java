@@ -1,4 +1,4 @@
-package cz.jjaros.playing.lombok.pojo;
+package cz.jjaros.funfromboredom.lombok.dto;
 
 import lombok.Builder;
 import lombok.Getter;
